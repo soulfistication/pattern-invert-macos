@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24260D852BE6A1B500744F1F /* pattern_invert_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D842BE6A1B500744F1F /* pattern_invert_macosApp.swift */; };
+		24260D872BE6A1B500744F1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D862BE6A1B500744F1F /* ContentView.swift */; };
+		24260D892BE6A1B600744F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24260D882BE6A1B600744F1F /* Assets.xcassets */; };
+		24260D8C2BE6A1B600744F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24260D8B2BE6A1B600744F1F /* Preview Assets.xcassets */; };
+		24260D942BE6A3B200744F1F /* CheckeredBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D932BE6A3B200744F1F /* CheckeredBoardView.swift */; };
+		24260D962BE6A3CB00744F1F /* CheckeredRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D952BE6A3CB00744F1F /* CheckeredRowView.swift */; };
+		24260D982BE6A3E400744F1F /* CheckeredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D972BE6A3E400744F1F /* CheckeredView.swift */; };
+		24260D9A2BE6A3FB00744F1F /* BlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D992BE6A3FB00744F1F /* BlackView.swift */; };
+		24260D9C2BE6A40900744F1F /* WhiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D9B2BE6A40900744F1F /* WhiteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24260D812BE6A1B500744F1F /* pattern-invert-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pattern-invert-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24260D842BE6A1B500744F1F /* pattern_invert_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pattern_invert_macosApp.swift; sourceTree = "<group>"; };
+		24260D862BE6A1B500744F1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24260D882BE6A1B600744F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24260D8B2BE6A1B600744F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24260D8D2BE6A1B600744F1F /* pattern_invert_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pattern_invert_macos.entitlements; sourceTree = "<group>"; };
+		24260D932BE6A3B200744F1F /* CheckeredBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckeredBoardView.swift; sourceTree = "<group>"; };
+		24260D952BE6A3CB00744F1F /* CheckeredRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckeredRowView.swift; sourceTree = "<group>"; };
+		24260D972BE6A3E400744F1F /* CheckeredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckeredView.swift; sourceTree = "<group>"; };
+		24260D992BE6A3FB00744F1F /* BlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackView.swift; sourceTree = "<group>"; };
+		24260D9B2BE6A40900744F1F /* WhiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24260D7E2BE6A1B500744F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24260D782BE6A1B500744F1F = {
+			isa = PBXGroup;
+			children = (
+				24260D832BE6A1B500744F1F /* pattern-invert-macos */,
+				24260D822BE6A1B500744F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24260D822BE6A1B500744F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24260D812BE6A1B500744F1F /* pattern-invert-macos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24260D832BE6A1B500744F1F /* pattern-invert-macos */ = {
+			isa = PBXGroup;
+			children = (
+				24260D842BE6A1B500744F1F /* pattern_invert_macosApp.swift */,
+				24260D862BE6A1B500744F1F /* ContentView.swift */,
+				24260D932BE6A3B200744F1F /* CheckeredBoardView.swift */,
+				24260D952BE6A3CB00744F1F /* CheckeredRowView.swift */,
+				24260D972BE6A3E400744F1F /* CheckeredView.swift */,
+				24260D992BE6A3FB00744F1F /* BlackView.swift */,
+				24260D9B2BE6A40900744F1F /* WhiteView.swift */,
+				24260D882BE6A1B600744F1F /* Assets.xcassets */,
+				24260D8D2BE6A1B600744F1F /* pattern_invert_macos.entitlements */,
+				24260D8A2BE6A1B600744F1F /* Preview Content */,
+			);
+			path = "pattern-invert-macos";
+			sourceTree = "<group>";
+		};
+		24260D8A2BE6A1B600744F1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24260D8B2BE6A1B600744F1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24260D802BE6A1B500744F1F /* pattern-invert-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24260D902BE6A1B600744F1F /* Build configuration list for PBXNativeTarget "pattern-invert-macos" */;
+			buildPhases = (
+				24260D7D2BE6A1B500744F1F /* Sources */,
+				24260D7E2BE6A1B500744F1F /* Frameworks */,
+				24260D7F2BE6A1B500744F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pattern-invert-macos";
+			productName = "pattern-invert-macos";
+			productReference = 24260D812BE6A1B500744F1F /* pattern-invert-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24260D792BE6A1B500744F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					24260D802BE6A1B500744F1F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 24260D7C2BE6A1B500744F1F /* Build configuration list for PBXProject "pattern-invert-macos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24260D782BE6A1B500744F1F;
+			productRefGroup = 24260D822BE6A1B500744F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24260D802BE6A1B500744F1F /* pattern-invert-macos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24260D7F2BE6A1B500744F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24260D8C2BE6A1B600744F1F /* Preview Assets.xcassets in Resources */,
+				24260D892BE6A1B600744F1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24260D7D2BE6A1B500744F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24260D942BE6A3B200744F1F /* CheckeredBoardView.swift in Sources */,
+				24260D872BE6A1B500744F1F /* ContentView.swift in Sources */,
+				24260D9A2BE6A3FB00744F1F /* BlackView.swift in Sources */,
+				24260D962BE6A3CB00744F1F /* CheckeredRowView.swift in Sources */,
+				24260D9C2BE6A40900744F1F /* WhiteView.swift in Sources */,
+				24260D852BE6A1B500744F1F /* pattern_invert_macosApp.swift in Sources */,
+				24260D982BE6A3E400744F1F /* CheckeredView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24260D8E2BE6A1B600744F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24260D8F2BE6A1B600744F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		24260D912BE6A1B600744F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pattern-invert-macos/pattern_invert_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pattern-invert-macos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivna.pattern-invert-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		24260D922BE6A1B600744F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pattern-invert-macos/pattern_invert_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pattern-invert-macos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ivna.pattern-invert-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24260D7C2BE6A1B500744F1F /* Build configuration list for PBXProject "pattern-invert-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24260D8E2BE6A1B600744F1F /* Debug */,
+				24260D8F2BE6A1B600744F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24260D902BE6A1B600744F1F /* Build configuration list for PBXNativeTarget "pattern-invert-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24260D912BE6A1B600744F1F /* Debug */,
+				24260D922BE6A1B600744F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24260D792BE6A1B500744F1F /* Project object */;
+}
