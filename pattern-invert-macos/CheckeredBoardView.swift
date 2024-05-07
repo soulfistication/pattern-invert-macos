@@ -11,16 +11,18 @@ struct CheckeredBoardView: View {
 
     @State var startsBlack: Bool
 
-    func blackStart(_ i: Int) -> Bool {
-        startsBlack ? (i % 2 == 0) : !(i % 2 == 0)
-    }
-
     var body: some View {
         VStack(spacing: 0) {
             ForEach((1...8), id: \.self) { i in
-                CheckeredRowView(startsBlack: blackStart(i))
+                CheckeredRowView(startsBlack: blackStart(i, startsBlack))
             }
         }
+    }
+}
+
+extension View {
+    func blackStart(_ i: Int, _ startsBlack: Bool) -> Bool {
+        startsBlack ? (i % 2 == 0) : !(i % 2 == 0)
     }
 }
 

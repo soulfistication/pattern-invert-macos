@@ -13,22 +13,8 @@ struct CheckeredRowView: View {
 
     var body: some View {
         HStack(spacing: 0) {
-            if startsBlack {
-                ForEach((1...8), id: \.self) { i in
-                    if i % 2 == 0 {
-                        CheckeredView(isFilled: true)
-                    } else {
-                        CheckeredView(isFilled: false)
-                    }
-                }
-            } else {
-                ForEach((1...8), id: \.self) { i in
-                    if i % 2 == 0 {
-                        CheckeredView(isFilled: false)
-                    } else {
-                        CheckeredView(isFilled: true)
-                    }
-                }
+            ForEach((1...8), id: \.self) { i in
+                CheckeredView(isFilled: blackStart(i, startsBlack))
             }
         }
     }
