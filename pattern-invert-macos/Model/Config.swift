@@ -12,4 +12,5 @@ struct Config {
     static let timeInterval = 1.0
     static let broadcastIP1 = "192.168.1.196"
     static let broadcastIP2 = "192.168.1.199"
+    static let port = 8002
 }
