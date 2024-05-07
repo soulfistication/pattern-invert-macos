@@ -11,29 +11,16 @@ struct CheckeredBoardView: View {
 
     @State var startsBlack: Bool
 
+    func blackStart(_ i: Int) -> Bool {
+        startsBlack ? (i % 2 == 0) : !(i % 2 == 0)
+    }
+
     var body: some View {
-        if startsBlack {
-            VStack(spacing: 0) {
-                ForEach((1...8), id: \.self) { i in
-                    if i % 2 == 0 {
-                        CheckeredRowView(startsBlack: true)
-                    } else {
-                        CheckeredRowView(startsBlack: false)
-                    }
-                }
-            }
-        } else {
-            VStack(spacing: 0) {
-                ForEach((1...8), id: \.self) { i in
-                    if i % 2 == 0 {
-                        CheckeredRowView(startsBlack: false)
-                    } else {
-                        CheckeredRowView(startsBlack: true)
-                    }
-                }
+        VStack(spacing: 0) {
+            ForEach((1...8), id: \.self) { i in
+                CheckeredRowView(startsBlack: blackStart(i))
             }
         }
-
     }
 }
 
