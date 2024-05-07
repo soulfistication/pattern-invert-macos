@@ -16,6 +16,7 @@
 		24260D982BE6A3E400744F1F /* CheckeredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D972BE6A3E400744F1F /* CheckeredView.swift */; };
 		24260D9A2BE6A3FB00744F1F /* BlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D992BE6A3FB00744F1F /* BlackView.swift */; };
 		24260D9C2BE6A40900744F1F /* WhiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24260D9B2BE6A40900744F1F /* WhiteView.swift */; };
+		24AF41022BEAAB6100F73858 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF41012BEAAB6100F73858 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		24260D972BE6A3E400744F1F /* CheckeredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckeredView.swift; sourceTree = "<group>"; };
 		24260D992BE6A3FB00744F1F /* BlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackView.swift; sourceTree = "<group>"; };
 		24260D9B2BE6A40900744F1F /* WhiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteView.swift; sourceTree = "<group>"; };
+		24AF41012BEAAB6100F73858 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				24260D842BE6A1B500744F1F /* pattern_invert_macosApp.swift */,
-				24260D862BE6A1B500744F1F /* ContentView.swift */,
-				24260D932BE6A3B200744F1F /* CheckeredBoardView.swift */,
-				24260D952BE6A3CB00744F1F /* CheckeredRowView.swift */,
-				24260D972BE6A3E400744F1F /* CheckeredView.swift */,
-				24260D992BE6A3FB00744F1F /* BlackView.swift */,
-				24260D9B2BE6A40900744F1F /* WhiteView.swift */,
+				24AF41002BEAAB5100F73858 /* Model */,
+				24AF40FF2BEAAB2800F73858 /* View */,
+				24AF41032BEAAC3700F73858 /* ViewModel */,
 				24260D882BE6A1B600744F1F /* Assets.xcassets */,
 				24260D8D2BE6A1B600744F1F /* pattern_invert_macos.entitlements */,
 				24260D8A2BE6A1B600744F1F /* Preview Content */,
@@ -82,6 +81,34 @@
 				24260D8B2BE6A1B600744F1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24AF40FF2BEAAB2800F73858 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24260D862BE6A1B500744F1F /* ContentView.swift */,
+				24260D932BE6A3B200744F1F /* CheckeredBoardView.swift */,
+				24260D952BE6A3CB00744F1F /* CheckeredRowView.swift */,
+				24260D972BE6A3E400744F1F /* CheckeredView.swift */,
+				24260D992BE6A3FB00744F1F /* BlackView.swift */,
+				24260D9B2BE6A40900744F1F /* WhiteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24AF41002BEAAB5100F73858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24AF41012BEAAB6100F73858 /* Config.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24AF41032BEAAC3700F73858 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +186,7 @@
 				24260D9A2BE6A3FB00744F1F /* BlackView.swift in Sources */,
 				24260D962BE6A3CB00744F1F /* CheckeredRowView.swift in Sources */,
 				24260D9C2BE6A40900744F1F /* WhiteView.swift in Sources */,
+				24AF41022BEAAB6100F73858 /* Config.swift in Sources */,
 				24260D852BE6A1B500744F1F /* pattern_invert_macosApp.swift in Sources */,
 				24260D982BE6A3E400744F1F /* CheckeredView.swift in Sources */,
 			);
