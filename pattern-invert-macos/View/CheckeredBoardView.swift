@@ -13,7 +13,7 @@ struct CheckeredBoardView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            ForEach((1...8), id: \.self) { i in
+            ForEach((1...16), id: \.self) { i in
                 CheckeredRowView(startsBlack: blackStart(i, startsBlack))
             }
         }

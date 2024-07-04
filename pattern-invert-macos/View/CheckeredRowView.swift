@@ -13,7 +13,7 @@ struct CheckeredRowView: View {
 
     var body: some View {
         HStack(spacing: 0) {
-            ForEach((1...8), id: \.self) { i in
+            ForEach((1...16), id: \.self) { i in
                 CheckeredView(isFilled: blackStart(i, startsBlack))
             }
         }

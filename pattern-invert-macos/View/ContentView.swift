@@ -31,5 +31,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView(viewIsBlack: true)
-        .frame(width: 400, height: 400)
+        .frame(width: 125, height: 125)
 }
