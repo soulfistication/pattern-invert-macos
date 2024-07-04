@@ -12,6 +12,8 @@ struct ContentView: View {
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     @State var viewIsBlack: Bool
+    
+    @State var numberOfStimulusLeft = Config.numberOfStimulus
 
     var body: some View {
         ZStack {
@@ -19,14 +21,20 @@ struct ContentView: View {
                 CheckeredBoardView(startsBlack: true)
                     .onReceive(timer) { date in
                         viewIsBlack.toggle()
+                        numberOfStimulusLeft -= 1
                     }
             } else {
                 CheckeredBoardView(startsBlack: false)
                     .onReceive(timer) { date in
                         viewIsBlack.toggle()
+                        numberOfStimulusLeft -= 1
                     }
             }
             Text("🔴")
+            if numberOfStimulusLeft <= 0 {
+                BlackView()
+                    .frame(width: 4000, height: 4000)
+            }
         }
     }
 }
