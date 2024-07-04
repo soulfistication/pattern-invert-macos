@@ -14,19 +14,21 @@ struct ContentView: View {
     @State var viewIsBlack: Bool
 
     var body: some View {
-        if viewIsBlack {
-            CheckeredBoardView(startsBlack: true)
-                .onReceive(timer) { date in
-                    viewIsBlack.toggle()
-                }
-        } else {
-            CheckeredBoardView(startsBlack: false)
-                .onReceive(timer) { date in
-                    viewIsBlack.toggle()
-                }
+        ZStack {
+            if viewIsBlack {
+                CheckeredBoardView(startsBlack: true)
+                    .onReceive(timer) { date in
+                        viewIsBlack.toggle()
+                    }
+            } else {
+                CheckeredBoardView(startsBlack: false)
+                    .onReceive(timer) { date in
+                        viewIsBlack.toggle()
+                    }
+            }
+            Text("🔴")
         }
     }
-
 }
 
 #Preview {
