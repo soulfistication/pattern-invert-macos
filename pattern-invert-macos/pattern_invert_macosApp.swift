@@ -12,7 +12,7 @@ struct pattern_invert_macosApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView(viewIsBlack: true)
-                .frame(width: 1000, height: 1000)
+                .frame(width: Config.width, height: Config.height)
         }
     }
 }
