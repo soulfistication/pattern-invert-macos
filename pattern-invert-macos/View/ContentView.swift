@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
 
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: Config.timeInterval, on: .main, in: .common).autoconnect()
 
     @State var viewIsBlack: Bool
     
